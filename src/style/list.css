@@ -1,0 +1,29 @@
+.list-done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.App{
+    text-align: center;
+}
+.list{
+    cursor: pointer;
+}
+.filter-todo{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.filter-todo li{
+    margin: 0 15px;
+    cursor: pointer;
+    background: gray;
+}
+.nodone{
+    background: red !important;
+}
+.done{
+    background: green !important;
+}
+.all{
+    background: tomato !important;
+}
